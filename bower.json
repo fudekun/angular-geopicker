@@ -1,0 +1,25 @@
+{
+  "name": "angular-geopicker",
+  "version": "0.0.1",
+  "main": [
+    "dist/scripts/angular-geopicker.min.js"
+  ],
+  "authors": [
+    "Tatsuya Fukuta <fukuta.tatsuya.ddd.dev@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "test",
+    "app"
+  ],
+  "dependencies": {
+    "angular": "^1.3.0",
+    "angular-leaflet-directive": "~0.8.5",
+    "angular-bootstrap": "~0.13.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.3.0"
+  }
+}

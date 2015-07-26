@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+  <!-- endbower -->
+  <!-- build:css(.tmp) styles/angular-geopicker.min.css -->
+  <link rel="stylesheet" href="styles/angular-geopicker.css">
+  <!-- endbuild -->
+</head>
+
+<body ng-app="angularGeopickerApp">
+  <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <input angular-geopicker clat=35.689487 clng=139.691706 precision=6 sep="," rad=false></input>
+
+  <!-- bower:js -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/leaflet/dist/leaflet.js"></script>
+  <script src="bower_components/leaflet/dist/leaflet-src.js"></script>
+  <script src="bower_components/angular-leaflet-directive/dist/angular-leaflet-directive.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <!-- endbower -->
+
+  <!-- build:js({.tmp,app}) scripts/angular-geopicker.min.js -->
+  <script src="scripts/app.js"></script>
+  <script src="scripts/directives/angular-geopicker.js"></script>
+  <script src="scripts/services/geopicker-factory.js"></script>
+  <script src="scripts/filters/geo-formatter.js"></script>
+  <script src="scripts/services/geopicker-config.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>
