@@ -2,6 +2,11 @@
 This directive supports input of latitude and longitude.
 This directive will generate a text box. If this text box to active, a map will pop up. If you click on any point on the map, latitude and longitude are entered in this text box.
 
+ This directive uses the [Open Streat Map](https://www.openstreetmap.org/).
+
+## Demo
+[Demo](http://fudekun.github.io/angular-geopicker/)
+
 ## Installation
 Install with bower `bower install https://github.com/fudekun/angular-geopicker.git --save`
 Inject the dependency `angular.module('testApp', ['angularGeopickerApp'])`
